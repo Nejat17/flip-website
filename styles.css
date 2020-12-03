@@ -5,7 +5,7 @@ h1 {
   background-position: center;
 }
 
-logo img
+.logo img
 {
   width:auto;
   height: 200px;
@@ -13,13 +13,13 @@ logo img
   margin-top: -55px;
   margin-left:30px;
 }
-.menu
+.main
 {
   float:right;
   list-style: none;
   margin-top: 30px;
 }
-.menu li
+.main li
 {
   display: inline-block;
 }
