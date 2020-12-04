@@ -12,6 +12,15 @@ h1 {
 {
   display: inline;
 }
+.work li a
+{
+  color:black;
+  text-decoration: none;
+  padding:5px 20px;
+  font-family: "Times New Roman",Times,serif;
+  font-size: 15px;
+}
+
 .logo img
 {
   width:auto;
