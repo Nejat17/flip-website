@@ -1,12 +1,18 @@
 
 h1 {
-  font-size: 2rem;
+  font-size: 20px;
   background-size: cover;
   background-position: center;
+  display: block;
+  text-align: center;
+  position: relative;
+  top: 40px; left: 40px;
+  padding-bottom: 80px;
 }
 .work
 {
   list-style: none;
+  padding-bottom: 50px;
 }
 .work li
 {
@@ -16,9 +22,9 @@ h1 {
 {
   color:black;
   text-decoration: none;
-  padding:5px 20px;
+  padding:10px 20px;
   font-family: "Times New Roman",Times,serif;
-  font-size: 15px;
+  font-size: 30px;
 }
 
 .logo img
@@ -26,12 +32,28 @@ h1 {
   width:auto;
   height: 200px;
   float: left;
-  margin-top: -55px;
-  margin-left:30px;
-  border-right: 600px;
+  margin-top: -55px; 
 }
 
-.worktwice
+.firstblock
 {
-  border: 5px solid blue;
+  border: 15px inset blue;
+  background-color: rgb(186, 250, 252);
+  box-shadow: 10px 5px 20px cyan;
+  margin-top: 50px;
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
+  border-spacing: 5px 1rem;
+}
+
+.secondblock
+{
+  border: 15px inset rgb(73, 253, 73);
+  background-color: rgb(198, 250, 198);
+  box-shadow: 10px 5px 20px rgb(29, 145, 29);
+  margin-top: 50px;
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
 }
